@@ -1,4 +1,4 @@
-const baseURl = process.env.API || "https://flipkart-api-server.herokuapp.com/";
+const baseURL = process.env.API || "https://flipkart-api-server.herokuapp.com/";
 
 export const api = `${baseURL}/api`;
 export const generatePublicUrl = (fileName) => {
