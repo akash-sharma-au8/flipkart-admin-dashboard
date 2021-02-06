@@ -1,6 +1,6 @@
-const baseUrl = "https://flipkart-admin-dashboard.herokuapp.com";
+const baseURL = process.env.API || "https://flipkart-api-server.herokuapp.com";
 
-export const api = `${baseUrl}/api`;
+export const api = `${baseURL}/api`;
 export const generatePublicUrl = (fileName) => {
-  return `${baseUrl}/public/${fileName}`;
+  return `${baseURL}/public/${fileName}`;
 };
