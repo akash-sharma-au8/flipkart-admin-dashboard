@@ -9,7 +9,7 @@ export const login = (user) => {
       type: authConstants.LOGIN_REQUEST,
     });
 
-    const res = await axios.post("/admin/signin", {
+    const res = await axios.post(`/admin/signin`, {
       ...user,
     });
 
