@@ -6,7 +6,6 @@ import { useSelector, useDispatch } from "react-redux";
 import { addProduct,deleteProductById } from "../../redux/actions";
 import Modal from "../../components/UI/Model";
 import "./style.css";
-import { } from ../../urlConfig";
 
 const Products = (props) => {
   const dispatch = useDispatch();
