@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { addProduct,deleteProductById } from "../../redux/actions";
 import Modal from "../../components/UI/Model";
 import "./style.css";
-import { generatePublicUrl } from "../../urlConfig";
+import { } from ../../urlConfig";
 
 const Products = (props) => {
   const dispatch = useDispatch();
@@ -223,7 +223,7 @@ const Products = (props) => {
             <div style={{ display: "flex" }}>
               {productDetails.productPictures.map((pic, index) => (
                 <div key={index} className="productImgContainer">
-                  <img alt="brandImage" src={generatePublicUrl(pic.img)} />
+                  <img alt="brandImage" src={pic.img} />
                 </div>
               ))}
             </div>
