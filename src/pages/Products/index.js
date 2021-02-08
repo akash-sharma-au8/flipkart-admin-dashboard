@@ -46,6 +46,11 @@ const Products = (props) => {
     }
     dispatch(addProduct(form));
     setShow(false);
+    setName("")
+    setQuantity("")
+    setPrice("")
+    setCategoryId("")
+    setProductPictures("")
   };
 
   const handleShow = () => setShow(true);
