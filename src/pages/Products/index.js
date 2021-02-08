@@ -49,6 +49,7 @@ const Products = (props) => {
     setName("")
     setQuantity("")
     setPrice("")
+    setDescription("")
     setCategoryId("")
     setProductPictures("")
   };
